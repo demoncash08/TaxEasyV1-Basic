@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/loginstyles.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <header></header>
+    <main>
+    
+      <section>
+
+        <div id="mainimg">
+            <div>
+
+                <img src="./images/wokingman.png" alt="working">
+                <h2>Maximum tax savings on ITR</h2>
+                <ul id="featuresList">
+                    <li>Easy to use</li>
+                    <li>Tips and suggestions on tax savings</li>
+                    <li>Expert advices and consultancy at cheapest rates</li>
+                </ul>
+            </div>
+        </div>
+        <div  id="loginpage">
+            <div id="notregistered">
+                <p>
+                    Not registered?
+                </p>
+                <a href="/signup">Create an account</a>
+                    
+            </div>
+            <div id="loginBox">
+
+                <h3>Welcome back!</h3>
+                <h1>Login to your account</h1>
+                <form action="/login" method="POST">
+                  <input type="email" value="Enter-email" name="email" required></input>
+                  <br>
+                  <input type="password" value="Password" name="password" required>
+                  <br>
+                <!-- <img src="./images/openeye.svg"></input> -->
+                <button >Login</button>
+                </form>
+                
+
+            </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

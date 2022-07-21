@@ -1,0 +1,231 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: linear-gradient(
+    103.51deg,
+    #eaf8ff -11.85%,
+    rgba(253, 241, 245, 0.44) 47.62%,
+    #eaf9f1 108.74%
+  );
+  font-family: "Nunito Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+li {
+  list-style: none;
+}
+#navbar-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.3rem;
+  padding: 1rem;
+  margin: 0rem;
+}
+#logo {
+  font-size: 2.4rem;
+  font-weight: bolder;
+  /* color: rgb(24, 138, 183); */
+  color: #1678fb;
+}
+#navbar-right {
+  display: flex;
+  padding: 0.6rem;
+}
+#navbar-right ul {
+  display: flex;
+  padding: 0.6rem;
+  margin: 0.6rem;
+}
+#navbar-right ul li {
+  padding: 0.3rem;
+}
+#navbar-main button {
+  border-radius: 6px;
+  background-color: #1678fb;
+  width: 10rem;
+  height: 3rem;
+  padding: 0.6rem;
+  margin: 0.6rem;
+  font-size: 1.3rem;
+  color: rgb(255, 255, 255);
+  border-color: #1678fb;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+}
+#loginbtn {
+  color: white;
+}
+#part1 {
+  text-align: center;
+  padding: 0;
+  margin: 0 auto;
+}
+#part1 h1 {
+  font-size: 4rem;
+  font-weight: bolder;
+  margin: 2rem;
+  margin-bottom: 0;
+}
+.text-emphasize {
+  background: -webkit-linear-gradient(
+    45deg,
+    #d956a7 0%,
+    #565dfa 60.42%,
+    #3983fb 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#part1 p {
+  color: rgb(145, 145, 145);
+  font-size: 1.3rem;
+  margin: 0;
+  padding: 0.3rem;
+}
+#customer-attract1-btn1 {
+  border-radius: 6px;
+  background-color: #1678fb;
+  width: 10rem;
+  height: 3rem;
+  padding: 0.6rem;
+  margin: 0.6rem;
+  font-size: 1.3rem;
+  color: rgb(255, 255, 255);
+  border-color: #1678fb;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+}
+#customer-attract1-btn2 {
+  border-radius: 6px;
+  background-color: rgb(255, 255, 255);
+  width: 10rem;
+  height: 3rem;
+  padding: 0.6rem;
+  margin: 0.6rem;
+  font-size: 1.3rem;
+  border-color: rgb(255, 255, 255);
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+}
+#images-tax {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 3rem;
+  margin: 2rem 4rem;
+  padding: 1rem;
+}
+#images-tax img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#part2 {
+  display: grid;
+  margin: 2rem;
+  padding: 8rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+#part2 h2 {
+  font-size: 2.4rem;
+  padding: 0;
+  margin: 0;
+}
+.sideline {
+  font-size: 1.1rem;
+
+  color: rgb(145, 145, 145);
+}
+#part2 ul {
+  margin: 1.4rem;
+  padding: 1.4rem;
+  display: block;
+}
+#part2 ul li {
+  margin: 0.5rem;
+  padding: 1rem;
+}
+.how-it-works {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+#checklist {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+}
+#number1 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: rgb(188, 93, 222);
+}
+#number2 {
+  color: rgb(101, 95, 222);
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+#number3 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: rgb(20, 197, 179);
+}
+.to-do-text {
+}
+.list-item {
+  display: flex;
+  gap: 0.4rem;
+  align-items: center;
+}
+.checklist-text {
+  font-size: 1.1rem;
+  color: rgb(145, 145, 145);
+}
+#part3 {
+  text-align: center;
+  margin: 1rem;
+  padding: 1rem;
+  margin-top: 0;
+  padding-top: 0;
+}
+#part3 h2 {
+  font-size: 2.9rem;
+  padding: 0;
+  margin: 0;
+  font-weight: 1300;
+  text-align: center;
+}
+#part3 p {
+  font-size: 1.1rem;
+  color: rgb(145, 145, 145);
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+#part3 button {
+  border-radius: 6px;
+  background-color: #1678fb;
+  width: 14rem;
+  height: 3rem;
+  padding: 0.6rem;
+  margin: 0.6rem;
+  font-size: 1.3rem;
+  color: rgb(255, 255, 255);
+  border-color: #1678fb;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+}
+#footer {
+  background-color: rgb(34, 29, 115);
+
+  padding: 3rem;
+  height: 100%;
+}
+#footer ul {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.1rem;
+  margin: 0rem;
+}

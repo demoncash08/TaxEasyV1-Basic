@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Information</title>
+    <link rel="stylesheet" href="./styles/personalInfo.css" />
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">
+        <h2>TaxEasy</h2>
+        <p>Financial Year 2022-23</p>
+        <a href="">Take expert's help</a>
+      </nav>
+    </header>
+    <main>
+      <section id="data">
+        <button type="submit">Personal Information</button>
+        <button type="submit">Income sources</button>
+        <button type="submit">Tax Saving</button>
+        <button type="submit">Tax summary</button>
+      </section>
+      <section id="InfoBox">
+        <div id="detailBox">
+          <div id="heading">
+            <img src="./images/personImg.png" />
+            <h3>Permanent Information</h3>
+          </div>
+          <p id="disclaimer">
+            Ensure all the information you provide is correct and matches with
+            your issued government ID cards
+          </p>
+        </div>
+      </section>
+      <section id="dataFill">
+        <div id="subhead">
+          <img src="./images/id-card.png" />
+          <h3>Identitfication and contact details</h3>
+        </div>
+        <div>
+          <form action="/personalInfo" method="POST">
+            <div class="form-control">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+            <div class="form-control">
+              <label for="email">Email Id</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <a href="/incomedetails/<%= users.id %> " class="btn">Submit</a>
+            <!-- <button class="btn">Submit</button> -->
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
